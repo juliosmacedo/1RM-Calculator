@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>1RM Calculator</title>
+    <link href="css/style.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <main><h1><strong>1RM Calculator</strong></h1></main>
+    <div class="inputs">
+            <label for="lift">Weight Lifted (kg)</label>
+            <input type="number" id="lift" name="lift" value="0" min="1" class="lift-input data" required>
+
+            <label for="reps">Repetitions</label>
+            <input type="number" id="reps" name="reps" value="0" min="1" class="reps-input data" required>
+            <p><button class="button" id="button">Calculate!</button></p>
+        </div>
+    <div id="info"></div>
+  </body>
+</html>
+
+<script src="js/script.js"></script>
